@@ -1,0 +1,33 @@
+#container-grid {
+  display: grid;
+  grid-template:
+    "nav" auto
+    "banner" 400px
+    "description" auto
+    "features" auto
+    "ubication" auto
+    "opinion" auto
+    "footer" auto;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 1308px) {
+  body {
+    background-color: #eaeaea;
+  }
+
+  #container-grid {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  nav {
+    width: 100%;
+    max-width: 1300px;
+  }
+}
