@@ -26,6 +26,39 @@ body {
     font-size: 16px;
 } 
 
-h1,h2,h3,h4,h5 {
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--negro);
     font-family: "Poppins", sans-serif;
- }
+    font-size: 1.3em;
+    padding: 1rem;
+}
+
+
+.item{ 
+    padding: 1rem;
+}
+
+.menu a {
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+.menu #button {
+    background-color: var(--azulclaro);
+    padding: 0.5rem 1rem;
+    color: var(--blanco);
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9em;
+}
+
+.menu i {
+    margin-right: 0.rem;
+}
+
+.logo img {
+    height: 3rem;
+}
