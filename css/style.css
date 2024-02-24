@@ -34,6 +34,28 @@ nav {
   padding: 1rem;
 }
 
+.banner {
+  background-image: url("/recursos/index/slide1.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 400px;
+  margin-top: 0px;
+}
+
+.description {
+  background-color: #fff;
+  height: 300px;
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.logo-desc {
+  background: url("/recursos/hotelia campana.svg");
+  padding: 100px;
+}
+
 .item {
   padding: 1rem;
 }
@@ -207,4 +229,44 @@ nav a:hover {
 }
 
 @media (min-width: 1308px) {
+}
+
+.ubication .title-ubication {
+  height: 70px;
+  width: 1350px;
+  text-align: center;
+  font-size: 23px;
+  padding: 20px 20px;
+}
+
+.image-ubication {
+  background: url("/recursos/mapa-ubicacion.png") no-repeat center;
+  width: 1300px;
+  height: 450px;
+  padding: 40px 40px;
+  margin: 30px;
+}
+
+.direction-ubication {
+  text-align: center;
+  font-size: 24px;
+}
+
+.direction-ubication .hr {
+  height: 5px;
+  width: 50%;
+  background-color: #337ab7;
+  margin-left: 25%;
+}
+
+.container-opinion {
+  background-color: #000;
+  width: 1500px;
+  height: 150px;
+  color: #fff;
+  font-size: 45px;
+  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
