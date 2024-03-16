@@ -117,23 +117,53 @@ switch (ejercicio) {
     //Nivel regular: Porcentaje>=50% y <75%.?
     //Fuera de nivel: Porcentaje<50%.
 
-    let numeroDeterminadoPreguntas = 100; 
+    let numeroDeterminadoPreguntas = 100;
     let nombreAspirante = prompt("Ingresa tu nombre: ");
-    let numerPreguntasCorrectas = prompt("Ingresa el numero de preguntas correctas: ");
-    let nivel ;
-    
-    if (numerPreguntasCorrectas >= 90){
-      nivel = "superior" ;
-      document.write("señ@r " + nombreAspirante + ", el resultado de la prueba realizada en la cual se hicieron " + numeroDeterminadoPreguntas + " preguntas fue de: " + nivel);
-    } else if (numerPreguntasCorrectas >= 75 && numerPreguntasCorrectas < 90 ) {
+    let numerPreguntasCorrectas = prompt(
+      "Ingresa el numero de preguntas correctas: "
+    );
+    let nivel;
+
+    if (numerPreguntasCorrectas >= 90) {
+      nivel = "superior";
+      document.write(
+        "señ@r " +
+          nombreAspirante +
+          ", el resultado de la prueba realizada en la cual se hicieron " +
+          numeroDeterminadoPreguntas +
+          " preguntas fue de: " +
+          nivel
+      );
+    } else if (numerPreguntasCorrectas >= 75 && numerPreguntasCorrectas < 90) {
       nivel = "medio";
-      document.write("señ@r " + nombreAspirante + ", el resultado de la prueba realizada en la cual se hicieron " + numeroDeterminadoPreguntas + " preguntas fue de: " + nivel);
-    }else if (numerPreguntasCorrectas >= 50 && numerPreguntasCorrectas < 75 ) {
+      document.write(
+        "señ@r " +
+          nombreAspirante +
+          ", el resultado de la prueba realizada en la cual se hicieron " +
+          numeroDeterminadoPreguntas +
+          " preguntas fue de: " +
+          nivel
+      );
+    } else if (numerPreguntasCorrectas >= 50 && numerPreguntasCorrectas < 75) {
       nivel = "regular";
-      document.write("señ@r " + nombreAspirante + ", el resultado de la prueba realizada en la cual se hicieron " + numeroDeterminadoPreguntas + " preguntas fue de: " + nivel);
-    }else {
+      document.write(
+        "señ@r " +
+          nombreAspirante +
+          ", el resultado de la prueba realizada en la cual se hicieron " +
+          numeroDeterminadoPreguntas +
+          " preguntas fue de: " +
+          nivel
+      );
+    } else {
       nivel = "Fuera de nivel";
-      document.write("señ@r " + nombreAspirante + ", el resultado de la prueba realizada en la cual se hicieron " + numeroDeterminadoPreguntas + " preguntas fue de: " + nivel);
+      document.write(
+        "señ@r " +
+          nombreAspirante +
+          ", el resultado de la prueba realizada en la cual se hicieron " +
+          numeroDeterminadoPreguntas +
+          " preguntas fue de: " +
+          nivel
+      );
     }
     ///////////////////////////////////////////////////////////////////////
     break;
@@ -143,4 +173,15 @@ switch (ejercicio) {
     document.write("OPERACION NO VALIDA, INTENTA NUEVAMENTE");
   default:
     break;
+
+  case "7":
+    let numeroUnoP = 10;
+    while (numeroUnoP <= 6) {
+      console.log("numero" + numeroUnoP);
+      numeroUno++;
+    }
+
+    break;
+
+
 }
